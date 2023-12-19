@@ -1,0 +1,158 @@
+.header {
+    background-color: #1f2937;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+.left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.right {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin-top: 5px;
+}
+.baddest {
+    width: 400px;
+    height: 300px;
+    padding: 0;
+    margin-left: 150px;
+}
+.header-boldest {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+.header-smallest {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.header-top {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    margin-top: 0;
+    padding: 2px 20px;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+
+}
+.header-down {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: auto;
+    
+}
+.header-image {
+    margin:30px 130px 0 0;
+    width: 450px;
+    height: 200px;
+    
+}
+
+.random {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.sub-images{
+    display: flex;
+    justify-content: center;
+    gap: 32px; 
+}
+.text {
+    width: 150px;
+    text-align: center;
+}
+.pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+.pic,
+.text {
+    flex: auto;
+}
+
+.body-two {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.person {
+    text-align: end;
+    font-weight: bold;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+}
+.try {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.body-three{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue {
+    background-color: #3882f6;
+    height: 150px;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.but {
+    border-color: #F9FAF8;
+    border: solid;
+
+}
+.action {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.product {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.last-body {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    font-size: 18px;
+    color: #E5E7EB;
+}
