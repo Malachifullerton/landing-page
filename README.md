@@ -14,3 +14,8 @@ I was giving the .sub-images class the width of a a single image causing the .su
 # made another container in .body-two called .try
 
 so that the quote will can be centered in the .body-two container and it can be given a width that will not affect the .body-two container.
+
+# removed a container around the contents of .body-two and i also removed  the width
+
+so that the .quote will shrink even without the flex-wrap property.
+

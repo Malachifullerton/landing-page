@@ -1,9 +1,11 @@
+
+
 .header {
     background-color: #1f2937;
-    height: 400px;
+    max-height: 400px;
     display: flex;
     flex-direction: column;
-    flex: auto;
+    overflow: hidden;
 }
 .left {
     font-size: 24px;
@@ -34,6 +36,7 @@
     color: #E5E7EB;
     margin-top: 0;
     margin-bottom: 5px;
+   
 }
 .header-top {
     display: flex;
@@ -54,7 +57,6 @@ button {
     justify-content: space-around;
     align-items: center;
     flex: auto;
-    
 }
 .header-image {
     margin:30px 130px 0 0;
@@ -73,6 +75,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 32px; 
+    flex-wrap: wrap;
 }
 .text {
     width: 150px;
@@ -83,18 +86,13 @@ button {
     width: 150px;
     border-radius: 20px;
 }
-.pic,
-.text {
-    flex: auto;
-}
-
 .body-two {
     background-color: #E5E7EB;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
 }
 .person {
     text-align: end;
@@ -106,13 +104,9 @@ button {
     font-weight: light;
     color: #1f2937;
     display: flex;
-    flex-wrap: wrap;
+
 }
-.try {
-    display: flex;
-    flex-direction: column;
-    width: 800px;
-}
+
 
 .body-three{
     height: 250px;
@@ -132,7 +126,7 @@ button {
 
 .but {
     border-color: #F9FAF8;
-    border: solid;
+    border: 2px solid #FFF ;
 
 }
 .action {
