@@ -17,5 +17,5 @@ so that the quote will can be centered in the .body-two container and it can be 
 
 # removed a container around the contents of .body-two and i also removed  the width
 
-so that the .quote will shrink even without the flex-wrap property.
+so that the .quote will wrap even without the flex-wrap property.
 
